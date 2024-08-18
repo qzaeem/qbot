@@ -26,5 +26,5 @@ app.get("/", (req, res) => {
 // Start the server
 server.listen(Number(process.env.PORT), async () => {
     console.log("Server is up and running!");
-    await bot.api.setWebhook(`https://${domain}/${secretPath}`);
+    await bot.api.setWebhook(`https://qbot-oxzj.onrender.com/${secretPath}`);
 });
